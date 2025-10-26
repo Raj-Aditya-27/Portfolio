@@ -188,7 +188,7 @@ section {
 
 .section__text__p2 {
   font-size: 1.75rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .title {
@@ -273,6 +273,7 @@ section {
 .about-details-container {
   justify-content: center;
   flex-direction: column;
+
 }
 
 .about-containers,
@@ -288,6 +289,7 @@ section {
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
+  /* border: 1px solid rebeccapurple; */
 }
 
 .details-container {
@@ -299,6 +301,13 @@ section {
   border-color: rgb(163, 163, 163);
   text-align: center;
 }
+
+.project-description {
+  margin-bottom: 15px;
+
+
+}
+
 
 .section-container {
   gap: 4rem;
@@ -315,6 +324,8 @@ section {
 
 #skills {
   position: relative;
+  /* border: 1px solid red; */
+  height: auto;
 }
 
 .skills-sub-title {
@@ -322,6 +333,16 @@ section {
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
+}
+
+#experience {
+  position: relative;
+  /* border: 1px solid red; */
+  height: auto;
+}
+
+.experience-sub-title {
+  font-size: 1.3rem;
 }
 
 .skills-details-container .about-containers {
@@ -332,6 +353,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+
 }
 
 .article-container {
@@ -341,13 +363,19 @@ section {
   flex-direction: row;
   gap: 2.5rem;
   justify-content: space-evenly;
+
+}
+
+.experience-description {
+  color: black;
 }
 
 article {
   display: flex;
-  width: 10rem;
-  justify-content: space-between;
+  width: auto;
+  /* justify-content: space-between; */
   gap: 0.5rem;
+  /* border: 1px solid red; */
 }
 
 article .icon {
@@ -381,7 +409,7 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
-#projects .project-title{
+#projects .project-title {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
